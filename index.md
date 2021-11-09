@@ -1,29 +1,27 @@
-## Briah Davis
-## CLIM680
-## Fall 2021
-
-## Table of Contents
----
-
-	* [Figures](#Figures)
-[Conda Environment](#Env)
+## Briah Davis|CLIM680|Fall 2021
 
 ## Introduction
 ---
 
 ## Datasets
 ---
+### **[SMAP L4](./SMAP.md)** 
+	* 
+### **Some Precip Dataset**
+	*
+### **Some Radiation Dataset** 
+	*
+## Conda Environment
+---
+Channels and dependencies needed to replicate results can be found [here](./env.md).
+
+##Functions
+---
 
 ## Results and Analysis
 ---
 
-## Functions
----
-
-## Conda environment<a class="anchor" id="Env"></a>
----
-
-## Figures<a class="anchor" id="Figures"></a>
+## Figures
 ---
 
 ## Summary
