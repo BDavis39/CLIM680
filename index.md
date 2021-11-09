@@ -1,30 +1,32 @@
-# Explaination
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: 'Brush Script MT', cursive;
+}
+</style>
+</head>
+<body>
 
-## Name
+<h1>Briah Davis</h1>
 
-## Introduction
+<h2>Introduction</h2>
+<p>0 1 2 3 4 5 6 7 8 9</p>
 
-## Data 
+<h2>Conda Environment:</h2>
 
-My datasets are:
+<h2>Data:</h2>
 
-## Results and Codes
+<h2>Results and Analysis:</h2>
 
-### Functions
+<h2>Functions:</h2>
 
-### Conda Environment
+<h2>Figures:</h2>
 
-The environment.yml file isp rovided to define the environment needed to run all codes
+<h2>Summary:</h2>
 
-### Figure
-
-The figures from my notebooks are saved in the `fig` subdirectory and shown in my notebook
-
-### Analyses and Notebooks
-
-#### Results
-
-Link to notebook and describe results
+</body>
+</html>
 
 
-## Summary 
