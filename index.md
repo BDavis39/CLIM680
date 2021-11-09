@@ -1,4 +1,5 @@
-# Briah Davis{: style="color: red; opacity: 0.80;" }
+**Briah Davis**{: style="color: red; opacity: 0.80;" }
+#**Briah Davis**{: style="color: red; opacity: 0.80;" }
 
 ## Introduction
 
