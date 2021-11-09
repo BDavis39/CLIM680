@@ -1,16 +1,30 @@
-**Briah Davis**{: style="color: red; opacity: 0.80;" }
-#**Briah Davis**{: style="color: red; opacity: 0.80;" }
+## Briah Davis
+## CLIM680
+## Fall 2021
+
+## Table of Contents
+---
+
+	* [Figures](#Figures)
+[Conda Environment](#Env)
 
 ## Introduction
+---
 
 ## Datasets
+---
 
 ## Results and Analysis
+---
 
-##Functions
+## Functions
+---
 
-## Conda environment
+## Conda environment<a class="anchor" id="Env"></a>
+---
 
-## Figures
+## Figures<a class="anchor" id="Figures"></a>
+---
 
 ## Summary
+---
