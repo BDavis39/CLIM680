@@ -4,4 +4,4 @@ plugins:
 #theme: jekyll-theme-minimal
 
 title: Variability of Leaf Area Index and Vegetation Greenness Fraction
-description: The following website traverses the process of determing how the Leaf Area Index and Vegetation Greenness Fraction from SMAP L4 data varies with other climatological variables. 
+description: The following website outlines the investigation of Leaf Area Index and Vegetation Greenness Fraction from SMAP L4 data variability in relation to other climatological variables. 
