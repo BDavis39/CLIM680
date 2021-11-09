@@ -1,8 +1,10 @@
 ## Contents of the [environment.yml](https://github.com/BDavis39/CLIM680/blob/master/environment.yml) file are below:
 
 name: clim680
+
 channels:
   - conda-forge
+
 dependencies:
   - python=3.6
   - jupyterlab=1.2.5
