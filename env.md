@@ -1,3 +1,5 @@
+## Contents of the [environment.yml](https://github.com/BDavis39/CLIM680/blob/master/environment.yml) file are below:
+
 name: clim680
 channels:
   - conda-forge
@@ -30,4 +32,4 @@ dependencies:
   - gcsfs
   - zarr
 
-The yml file for this project can be found [here](https://github.com/BDavis39/CLIM680/blob/master/environment.yml)
+[Previous Page](./)
