@@ -8,22 +8,22 @@
 
 ![Land Energy Balance](Seneviratne_LandEnergyBalance.png)
 
-\begin{equation*}
+$$
 \frac{dH}{dt}=R_n-{\lambda}E-SH-G
-\end{equation*}
+$$
 
 where, <br>
-* $R_n$ = Net Radiation <br>
-* ${\lambda}$ = Latent Heat of Vaporization <br>
+* $$R_n$$ = Net Radiation <br>
+* $${\lambda}$$ = Latent Heat of Vaporization <br>
 * E = Evapotranspiration <br>
 * SH = Sensible Heat Flux <br>
 * G = Ground Heat Flux to deeper layers <br>
 
 and the **Net Radiation** is defined as:
 
-\begin{equation*}
+$$
 R_n=SW_{in}-SW_{out}-LW_{in}-LW_{out}
-\end{equation*}
+$$
 
 (Seneviratne, Sonia I., et al. “Investigating Soil Moisture–Climate Interactions in a Changing Climate: A Review.” Earth-Science Reviews, vol. 99, no. 3–4, Elsevier, May 2010, pp. 125–61, doi:10.1016/J.EARSCIREV.2010.02.004.)
 
