@@ -1,3 +1,5 @@
+{% include lib/mathjax.html %}
+
 ## Briah Davis|CLIM680|Fall 2021
 
 ## Introduction
@@ -25,7 +27,7 @@ R_n=SW_{in}-SW_{out}-LW_{in}-LW_{out}
 
 (Seneviratne, Sonia I., et al. “Investigating Soil Moisture–Climate Interactions in a Changing Climate: A Review.” Earth-Science Reviews, vol. 99, no. 3–4, Elsevier, May 2010, pp. 125–61, doi:10.1016/J.EARSCIREV.2010.02.004.)
 
-## Data
+## Data and Functions
 ---
 #### **[SMAP L4](./SMAP.md)**
  
