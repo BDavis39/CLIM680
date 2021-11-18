@@ -43,12 +43,6 @@ R_n=SW_{in}-SW_{out}-LW_{in}-LW_{out}
                 * Sensible Heat Flux
                 * Ground Heat Flux
 
-#### **Some Precip Dataset**
-	* Brief Descrip.
-
-#### **Some Radiation Dataset** 
-	* Brief Descrip.
-
 ## Conda Environment
 ---
 Channels and dependencies needed to replicate results can be found [here](./env.md).
