@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 #theme: jekyll-theme-minimal
 
-title: Variability of Leaf Area Index and Vegetation Greenness Fraction
-description: The following website outlines the investigation of Leaf Area Index and Vegetation Greenness Fraction from SMAP L4 data variability in relation to other climatological variables. 
+title: Soil Moisture and the Land Energy Balance
+description: The following website outlines the investigation of the change of energy in a surface soil layer, from SMAP L4 data, through the individual contributing components from SMAP L4 data in relation to the surface soil moisture. 

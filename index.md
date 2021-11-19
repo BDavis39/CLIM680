@@ -49,9 +49,6 @@ $$
 ---
 Channels and dependencies needed to replicate results can be found [here](./env.md).
 
-## Functions
----
-
 ## Results and Analysis
 ---
 
