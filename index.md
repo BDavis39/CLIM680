@@ -4,7 +4,9 @@
 
 ## Introduction
 ---
-Evapotranspiration can be defined as the aggregate of all evaporation from land-surfaces in addition to all transpiration from plants (“Evapotranspiration and the Water Cycle”). This results in a net loss of moisture to the atmosphere from the ground, water table, plants, and even neighboring soil (“Evapotranspiration and the Water Cycle”). It is of great interest because this communal process influences both the land energy and water balances in the atmosphere (Seneviratne et al 129). Consequently, soil moisture, with its direct relationship on evapotranspiration is essential in quantifying these budgets (Seneviratne et al 129). It then stands that understanding the relationship between the governing parameters of soil moisture (and subsequently evapotranspiration) such as temperature, humidity, wind, and vegetation type…etc. facilitates the evaluation of such budgets (Seneviratne et al 129).
+#### Background
+
+> Evapotranspiration can be defined as the aggregate of all evaporation from land-surfaces in addition to all transpiration from plants (“Evapotranspiration and the Water Cycle”). This results in a net loss of moisture to the atmosphere from the ground, water table, plants, and even neighboring soil (“Evapotranspiration and the Water Cycle”). It is of great interest because this communal process influences both the land energy and water balances in the atmosphere (Seneviratne et al 129). Consequently, soil moisture, with its direct relationship on evapotranspiration is essential in quantifying these budgets (Seneviratne et al 129). It then stands that understanding the relationship between the governing parameters of soil moisture (and subsequently evapotranspiration) such as temperature, humidity, wind, and vegetation type…etc. facilitates the evaluation of such budgets (Seneviratne et al 129).
 
 #### The Land Energy Balance (for a surface soil layer including vegetation)
 
@@ -33,20 +35,20 @@ $$
 ---
 #### **[SMAP L4](./SMAP.md)**
  
-	* 2015-04-01 to 2021-08-31
-	* 9km global EASE-Grid 2.0 projection
-	* 180˚W to 180˚E/85.044˚N to 85.044˚S
-	 * Variables of Interest:
-                * Net Radiation  
-                        * Longwave Radiation Flux
-                        * Shortwave Radiation Flux
-                        * Longwave Absorbed Flux
-                        * Shortwave Absorbed Flux
-                * Evapotranspiration           
-                        * Latent Heat Flux
-                * Sensible Heat Flux
-                * Ground Heat Flux
-		* Soil Moisture
+* 2015-04-01 to 2021-08-31
+* 9km global EASE-Grid 2.0 projection
+* 180˚W to 180˚E/85.044˚N to 85.044˚S
+* Variables of Interest:
+	* Net Radiation  
+		* Longwave Radiation Flux
+                * Shortwave Radiation Flux
+                * Longwave Absorbed Flux
+                * Shortwave Absorbed Flux
+        * Evapotranspiration           
+                * Latent Heat Flux
+        * Sensible Heat Flux
+        * Ground Heat Flux
+	* Soil Moisture
 
 ## Conda Environment
 ---
@@ -58,6 +60,8 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 ## Figures
 ---
 Figures Intro.
+
+#### Climatologies
 
 ![Latent Heat Flux Climatology](/Figs/Climo_LHF.png)
 
@@ -71,5 +75,17 @@ Insert Description
 
 Insert Description
 
+
+#### Composite
+
+
 ## Summary
 ---
+
+
+## References
+---
+
+* Evapotranspiration and the Water Cycle. https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle?qt-science_center_objects=0#qt-science_center_objects. Accessed 23 Nov. 2021.
+* Seneviratne, Sonia I., et al. “Investigating Soil Moisture–Climate Interactions in a Changing Climate: A Review.” Earth-Science Reviews, vol. 99, no. 3–4, Elsevier, May 2010, pp. 125–61, doi:10.1016/J.EARSCIREV.2010.02.004.
+
