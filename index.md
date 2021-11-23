@@ -4,6 +4,10 @@
 
 ## Introduction
 ---
+Evapotranspiration can be defined as the aggregate of all evaporation from land-surfaces in addition to all transpiration from plants (“Evapotranspiration and the Water Cycle”). This results in a net loss of moisture to the atmosphere from the ground, water table, plants, and even neighboring soil (“Evapotranspiration and the Water Cycle”). It is of great interest because this communal process influences both the land energy and water balances in the atmosphere (Seneviratne et al 129). Consequently, soil moisture, with its direct relationship on evapotranspiration is essential in quantifying these budgets (Seneviratne et al 129). It then stands that understanding the relationship between the governing parameters of soil moisture (and subsequently evapotranspiration) such as temperature, humidity, wind, and vegetation type…etc. facilitates the evaluation of such budgets (Seneviratne et al 129).
+<br> 
+Below, the focus is given to the land energy budget with special emphasis on the evapotranspiration term, which is being presented as its product with the latent heat of vaporization () known as the latent heat flux. Climatologies have been calculated for various governing terms and soil moisture anomalies are assessed for discrete thresholds of the latent heat flux associated with regions of varying climate classifications. Mean differences are used to further investigate the terms in the land energy budget. Finally the soil moisture anomalies and latent heat flux relationship is scrutinized by way of linear regression.
+
 #### The Land Energy Balance (for a surface soil layer including vegetation)
 
 ![Land Energy Balance](Seneviratne_LandEnergyBalance.png)
@@ -44,6 +48,7 @@ $$
                         * Latent Heat Flux
                 * Sensible Heat Flux
                 * Ground Heat Flux
+		* Soil Moisture
 
 ## Conda Environment
 ---
