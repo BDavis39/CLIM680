@@ -17,6 +17,7 @@ $$
 $$
 
 where, <br>
+* \frac{dH}{dt} = Change of Energy <br>
 * $$R_n$$ = Net Radiation <br>
 * $${\lambda}$$ = Latent Heat of Vaporization <br>
 * E = Evapotranspiration <br>
@@ -40,14 +41,12 @@ $$
 * 180˚W to 180˚E/85.044˚N to 85.044˚S
 * Variables of Interest:
 	* Net Radiation  
-		* Longwave Radiation Flux
-                * Shortwave Radiation Flux
-                * Longwave Absorbed Flux
-                * Shortwave Absorbed Flux
-        * Evapotranspiration           
-                * Latent Heat Flux
-        * Sensible Heat Flux
-        * Ground Heat Flux
+		* Net Downward Longwave Flux
+        * Net Downward Shortwave Flux
+    * Evapotranspiration           
+        * Latent Heat Flux
+    * Sensible Heat Flux
+    * Ground Heat Flux
 	* Soil Moisture
 
 ## Conda Environment
