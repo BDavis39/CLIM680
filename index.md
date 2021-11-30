@@ -17,7 +17,7 @@ $$
 $$
 
 where, <br>
-* \frac{dH}{dt} = Change of Energy <br>
+* $$\frac{dH}{dt}$$ = Change of Energy <br>
 * $$R_n$$ = Net Radiation <br>
 * $${\lambda}$$ = Latent Heat of Vaporization <br>
 * E = Evapotranspiration <br>
