@@ -1,6 +1,7 @@
 {% include lib/mathjax.html %}
 
 ## Briah Davis|CLIM680|Fall 2021
+## [My Notebook](https://github.com/BDavis39/CLIM680/blob/master/CLIM680_Assignments.ipynb)
 
 ## Introduction
 ---
