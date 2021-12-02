@@ -39,7 +39,7 @@ $$
 
 ## Data and Functions
 ---
-#### **SMAP L4**
+#### **[SMAP L4](/SMAP.md)**
  
 * 2015-04-01 to 2021-08-31
 * 9km global EASE-Grid 2.0 projection
@@ -113,8 +113,8 @@ Similar pattern, more ground heat flux in the warmer month. Much lower values in
 ## References
 ---
 
-* Data Products/Data – SMAP. https://smap.jpl.nasa.gov/data/. Accessed 27 Nov. 2021.
-* Description/Mission – SMAP. https://smap.jpl.nasa.gov/mission/description/. Accessed 27 Nov. 2021.
+* Data Products/Data SMAP. https://smap.jpl.nasa.gov/data/. Accessed 27 Nov. 2021.
+* Description/Mission SMAP. https://smap.jpl.nasa.gov/mission/description/. Accessed 27 Nov. 2021.
 * Evapotranspiration and the Water Cycle. https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle?qt-science_center_objects=0#qt-science_center_objects. Accessed 23 Nov. 2021.
 * Global Modeling and Assimilation Office Soil Moisture Active Passive (SMAP) Mission Level 4 Surface and Root Zone Soil Moisture (L4_SM) Product Specification Document. http://gmao.gsfc.nasa.gov/pubs/office_notes. Accessed 27 Nov. 2021.
 * Reichle, Rolf, et al. Soil Moisture Active Passive (SMAP) Algorithm Theoretical Basis Document Level 4 Surface and Root Zone Soil Moisture (L4_SM) Data Product Revision A. 2014.
