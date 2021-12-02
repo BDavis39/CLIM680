@@ -34,7 +34,6 @@ $$
 #### Koppan Climate Classification
 
 ![Koppan Climate Classification](/Figs/Koppen_all_1901-2010.png)
-
 * Areas of interest:
     * High Temperature (Warm)
     * High Humidity (Moist)
@@ -56,7 +55,7 @@ $$
     * Ground Heat Flux
 	* Soil Moisture
     
-### **[Function (In Progress)]**
+### **Function (In Progress)**
 
 In the SMAP L4 daily data, x and y are coordinates while latitude and longitude are variables. In order to take a slice of the larger region, I am currently using a trial and error method of indexing the latitude and longitude variables until I get the desired x and y values. This function seeks to take latitudinal and longitudinal pairs and output the corresponding x and y coordinates using the modulo operator. More testing is needed to complete function.
  
@@ -71,29 +70,37 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 ## Results and Analysis
 ---
 
+#### Region
+
+![Regional Latent Heat Flux](./Figs/AVG_LHF.png)
+
 #### Climatologies
 
-![Net Radiation Flux Climatology](/Figs/Climo_NetRad2.png)
-Insert Description
-
 ![Latent Heat Flux Climatology](/Figs/Climo_LHF.png)
+* More latent heat flux in warm months and moist areas. 
 
-Insert Description
 
 ![Sensible Heat Flux Climatology](/Figs/Climo_SHF.png)
-
-Insert Description
+* More sensible heat flux in warm months and clear areas.
 
 ![Ground Heat Flux Climatology](/Figs/Climo_GHF.png)
-
-Insert Description
+* Similar pattern, more ground heat flux in the warmer month. Much lower values in cooler months which could be becuase of significant drop in land temperatures in cool season. 
 
 
 #### Composite and Regression
 
 ![Latent Heat Flux Composite](/Figs/LHF_Composite.png)
+* Top Row
+    * West looks fairly similar to what we expect in taking the average from the region
+    * Top 10% of temperatures depict a strong signal
+        * Small region of low value to the East is most likely due to cool temperatures
+    * Surrounding temperatures depict high values
+        * Most likely due to advection of dry air over moist region
+* Bottom Row
+    * Unexpected outcome as regional average is not consistent with plot
+        * Potentially due to some greater circulation pattern
+        
 
-Insert Description
 
 
 ## References
