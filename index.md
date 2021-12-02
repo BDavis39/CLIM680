@@ -56,11 +56,13 @@ $$
     * Ground Heat Flux
 	* Soil Moisture
     
-### **[Function (In Progress)](./func.md)**
+### **[Function (In Progress)]**
 
-* Locating Coordinate Function
-    * Input: Lat and Lon coordinates
-    * Output: x and y data coordinates 
+In the SMAP L4 daily data, x and y are coordinates while latitude and longitude are variables. In order to take a slice of the larger region, I am currently using a trial and error method of indexing the latitude and longitude variables until I get the desired x and y values. This function seeks to take latitudinal and longitudinal pairs and output the corresponding x and y coordinates using the modulo operator. More testing is needed to complete function.
+ 
+![Function](/Figs/Function_SS.png)
+
+
 
 ## Conda Environment
 ---
