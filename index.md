@@ -8,6 +8,7 @@
 
 > Evapotranspiration can be defined as the aggregate of all evaporation from land-surfaces in addition to all transpiration from plants (“Evapotranspiration and the Water Cycle”). This results in a net loss of moisture to the atmosphere from the ground, water table, plants, and even neighboring soil (“Evapotranspiration and the Water Cycle”). It is of great interest because this communal process influences both the land energy and water balances in the atmosphere (Seneviratne et al 129). Consequently, soil moisture, with its direct relationship on evapotranspiration is essential in quantifying these budgets (Seneviratne et al 129). It then stands that understanding the relationship between the governing parameters of soil moisture (and subsequently evapotranspiration) such as temperature, humidity, wind, and vegetation type…etc. facilitates the evaluation of such budgets (Seneviratne et al 129).
 
+
 #### The Land Energy Balance (for a surface soil layer including vegetation)
 
 ![Land Energy Balance](Seneviratne_LandEnergyBalance.png)
@@ -30,7 +31,13 @@ $$
 R_n=SW_{in}-SW_{out}-LW_{in}-LW_{out}
 $$
 
-(Seneviratne, Sonia I., et al. “Investigating Soil Moisture–Climate Interactions in a Changing Climate: A Review.” Earth-Science Reviews, vol. 99, no. 3–4, Elsevier, May 2010, pp. 125–61, doi:10.1016/J.EARSCIREV.2010.02.004.)
+#### Koppan Climate Classification
+
+![Koppan Climate Classification](/Figs/Koppen_all_1901-2010.png)
+
+* Areas of interest:
+    * High Temperature (Warm)
+    * High Humidity (Moist)
 
 ## Data and Functions
 ---
@@ -48,6 +55,10 @@ $$
     * Sensible Heat Flux
     * Ground Heat Flux
 	* Soil Moisture
+    
+### **[Functions](./func.md)**
+* Coordinate (x and y) Locator (In progress)
+    * Converts latitude and longitude pairs to x and y coordinates
 
 ## Conda Environment
 ---
@@ -56,11 +67,10 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 ## Results and Analysis
 ---
 
-## Figures
----
-Figures Intro.
-
 #### Climatologies
+
+![Net Radiation Flux Climatology](/Figs/Climo_NetRad2)
+Insert Description
 
 ![Latent Heat Flux Climatology](/Figs/Climo_LHF.png)
 
@@ -75,7 +85,13 @@ Insert Description
 Insert Description
 
 
-#### Composite
+#### Composite and Regression
+
+![Latent Heat Flux Composite](/Figs/LHF_Composite.png)
+
+Insert Description
+
+
 
 
 ## Summary
