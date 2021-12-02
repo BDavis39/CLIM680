@@ -39,7 +39,7 @@ $$
 
 ## Data and Functions
 ---
-#### **[SMAP L4](./SMAP.md)**
+#### **SMAP L4**
  
 * 2015-04-01 to 2021-08-31
 * 9km global EASE-Grid 2.0 projection
@@ -57,10 +57,6 @@ $$
 ### **Function (In Progress)**
 
 In the SMAP L4 daily data, x and y are coordinates while latitude and longitude are variables. In order to take a slice of the larger region, I am currently using a trial and error method of indexing the latitude and longitude variables until I get the desired x and y values. This function seeks to take latitudinal and longitudinal pairs and output the corresponding x and y coordinates using the modulo operator. More testing is needed to complete function.
- 
-![Function](/Figs/Function_SS.png)
-
-
 
 ## Conda Environment
 ---
@@ -99,7 +95,7 @@ Similar pattern, more ground heat flux in the warmer month. Much lower values in
     * Unexpected outcome as regional average is not consistent with plot
         * Potentially due to some greater circulation pattern
         
-![Correlation with LHF](./Figs/LHF_Corr)
+![Correlation with LHF](/Figs/LHF_Corr.png)
 * Top
     * Positively correlated
     * More strongly correlated in Northeast
@@ -107,7 +103,7 @@ Similar pattern, more ground heat flux in the warmer month. Much lower values in
     * Positively correlated
     * More strongly correlated in the Southwest
     
-![Regression](./Figs/LHf_SM_Reg.png)
+![Regression](/Figs/LHf_SM_Reg.png)
 * Still being analyzed
  
         
