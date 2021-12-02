@@ -56,7 +56,7 @@ $$
     
 ### **Function (In Progress)**
 
-In the SMAP L4 daily data, x and y are coordinates while latitude and longitude are variables. In order to take a slice of the larger region, I am currently using a trial and error method of indexing the latitude and longitude variables until I get the desired x and y values. This function seeks to take latitudinal and longitudinal pairs and output the corresponding x and y coordinates using the modulo operator. More testing is needed to complete function.
+In the SMAP L4 daily data, x and y are coordinates while latitude and longitude are variables. In order to take a slice of the larger region, I am currently using a trial and error method of indexing the latitude and longitude variables until I get the desired x and y values. This function seeks to take latitude and longitude pairs and output the corresponding x and y coordinates using the modulo operator. More testing is needed to complete function.
 
 ## Conda Environment
 ---
@@ -103,7 +103,7 @@ Similar pattern, more ground heat flux in the warmer month. Much lower values in
     * Positively correlated
     * More strongly correlated in the Southwest
     
-![Regression](/Figs/LHf_SM_Reg.png)
+![Regression](/Figs/LHFSMReg.png)
 * Still being analyzed
  
         
