@@ -33,7 +33,6 @@ $$
 
 #### Koppan Climate Classification
 
-![Koppan Climate Classification](/Figs/Koppen_all_1901-2010.png)
 * Areas of interest:
     * High Temperature (Warm)
     * High Humidity (Moist)
@@ -77,14 +76,14 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 #### Climatologies
 
 ![Latent Heat Flux Climatology](/Figs/Climo_LHF.png)
-* More latent heat flux in warm months and moist areas. 
+More latent heat flux in warm months and moist areas. 
 
 
 ![Sensible Heat Flux Climatology](/Figs/Climo_SHF.png)
-* More sensible heat flux in warm months and clear areas.
+More sensible heat flux in warm months and clear areas.
 
 ![Ground Heat Flux Climatology](/Figs/Climo_GHF.png)
-* Similar pattern, more ground heat flux in the warmer month. Much lower values in cooler months which could be becuase of significant drop in land temperatures in cool season. 
+Similar pattern, more ground heat flux in the warmer month. Much lower values in cooler months which could be becuase of significant drop in land temperatures in cool season. 
 
 
 #### Composite and Regression
