@@ -86,7 +86,7 @@ More sensible heat flux in warm months and clear areas.
 Similar pattern, more ground heat flux in the warmer month. Much lower values in cooler months which could be becuase of significant drop in land temperatures in cool season. 
 
 
-#### Composite and Regression
+#### Composite and Correlation
 
 ![Latent Heat Flux Composite](/Figs/LHF_Composite.png)
 * Top Row
@@ -99,14 +99,26 @@ Similar pattern, more ground heat flux in the warmer month. Much lower values in
     * Unexpected outcome as regional average is not consistent with plot
         * Potentially due to some greater circulation pattern
         
+![Correlation with LHF](./Figs/LHF_Corr)
+* Top
+    * Positively correlated
+    * More strongly correlated in Northeast
+* Bottom 
+    * Positively correlated
+    * More strongly correlated in the Southwest
+    
+![Regression](./Figs/LHf_SM_Reg.png)
+* Still being analyzed
+ 
+        
 
 
 
 ## References
 ---
 
-* Data Products | Data – SMAP. https://smap.jpl.nasa.gov/data/. Accessed 27 Nov. 2021.
-* Description | Mission – SMAP. https://smap.jpl.nasa.gov/mission/description/. Accessed 27 Nov. 2021.
+* Data Products/Data – SMAP. https://smap.jpl.nasa.gov/data/. Accessed 27 Nov. 2021.
+* Description/Mission – SMAP. https://smap.jpl.nasa.gov/mission/description/. Accessed 27 Nov. 2021.
 * Evapotranspiration and the Water Cycle. https://www.usgs.gov/special-topic/water-science-school/science/evapotranspiration-and-water-cycle?qt-science_center_objects=0#qt-science_center_objects. Accessed 23 Nov. 2021.
 * Global Modeling and Assimilation Office Soil Moisture Active Passive (SMAP) Mission Level 4 Surface and Root Zone Soil Moisture (L4_SM) Product Specification Document. http://gmao.gsfc.nasa.gov/pubs/office_notes. Accessed 27 Nov. 2021.
 * Reichle, Rolf, et al. Soil Moisture Active Passive (SMAP) Algorithm Theoretical Basis Document Level 4 Surface and Root Zone Soil Moisture (L4_SM) Data Product Revision A. 2014.
