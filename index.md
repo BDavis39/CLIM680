@@ -12,8 +12,6 @@
 
 #### The Land Energy Balance (for a surface soil layer including vegetation)
 
-<center>![Land Energy Balance](Seneviratne_LandEnergyBalance.png)</center>
-
 ![Land Energy Balance](Seneviratne_LandEnergyBalance.png)
 
 $$
