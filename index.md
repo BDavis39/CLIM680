@@ -32,12 +32,6 @@ $$
 R_n=SW_{in}-SW_{out}-LW_{in}-LW_{out}
 $$
 
-#### Koppan Climate Classification
-
-* Areas of interest:
-    * High Temperature (Warm)
-    * High Humidity (Moist)
-
 ## Data
 ---
 #### **[SMAP L4](/SMAP.md)**
@@ -84,18 +78,11 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 ![Regional Latent Heat Flux](./Figs/AVG_LHF.png)
 
 
-> *Latent Heat Flux Composite*: The following map is a composite of the latent heat flux anomolies calculates over the entire region with the averages of the temperature and specific humidity lowest model layer (56-70m). The averages in each box were computed individually then the percentile data was composited with the anomolies of the LHF for the entire region. The maps below shows the results of this calculation. The top row represents the LHF composite with the warm temperature region and the bottom row represents the LHF composite with the moist temperature region.  
+> *Latent Heat Flux Composite*: The following map is a composite of the latent heat flux anomolies calculates over the entire region with the averages of the temperature and specific humidity lowest model layer (56-70m). Only the warm season (June-July-August) are used for the calculation but all years (2015-2019) are used. The averages in each box were computed individually then the percentile data was composited with the anomolies of the LHF for the entire region. The maps below shows the results of this calculation. The top row represents the LHF composite with the warm temperature region and the bottom row represents the LHF composite with the moist temperature region. 
+> *Top*: Negative values are present in the region close to where the warm temperature average was taken. It is expected that LHF here is lower becaues it is a moisture-limited environment. In the summer, solar radiation and heating is readily available so LHF is dependent on soil moisture availibility. It is present in lower quantities comapred to other regions which is represented by the green colors in all other areas of map. The signal strengthens resulting in higher magnitudes moving to lower percentiles i.e lowers values of temperature. The lower maps   
+> *Bottom*: The bottom plot is opposite of the top one. The most significant signal is not in the moist region where the composite average was taken. This doesn't change when looking at the top or bottom percentiles for specific humidity in this region. This could be due to other forcing in the atmosphere that is causing the signal to reach a peak in to the southwest of the original averaged region. 
 
-![Latent Heat Flux Composite](/Figs/LHF_Composite.png)
-* Top Row
-    * West looks fairly similar to what we expect in taking the average from the region
-    * Top 10% of temperatures depict a strong signal
-        * Small region of low value to the East is most likely due to cool temperatures
-    * Surrounding temperatures depict high values
-        * Most likely due to advection of dry air over moist region
-* Bottom Row
-    * Unexpected outcome as regional average is not consistent with plot
-        * Potentially due to some greater circulation pattern
+![LHF Composite with SM and Radiation](/Figs/LHF_Corr.png)
         
 ![Correlation with LHF](/Figs/LHF_Corr.png)
 * Top
