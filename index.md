@@ -12,9 +12,7 @@
 
 #### The Land Energy Balance (for a surface soil layer including vegetation)
 
-<p align="center">
-   <img src="https://github.com/BDavis39/CLIM680/blob/master/Seneviratne_LandEnergyBalance.png" alt="Land Energy Balance" />
-</p>
+<center>![Land Energy Balance](Seneviratne_LandEnergyBalance.png)</center>
 
 ![Land Energy Balance](Seneviratne_LandEnergyBalance.png)
 
