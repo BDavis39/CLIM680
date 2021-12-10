@@ -38,7 +38,7 @@ $$
     * High Temperature (Warm)
     * High Humidity (Moist)
 
-## Data and Functions
+## Data
 ---
 #### **[SMAP L4](/SMAP.md)**
  
@@ -54,10 +54,6 @@ $$
     * Sensible Heat Flux
     * Ground Heat Flux
 	* Soil Moisture
-    
-### **Function (In Progress)**
-
-In the SMAP L4 daily data, x and y are coordinates while latitude and longitude are variables. In order to take a slice of the larger region, I am currently using a trial and error method of indexing the latitude and longitude variables until I get the desired x and y values. This function seeks to take latitude and longitude pairs and output the corresponding x and y coordinates using the modulo operator. More testing is needed to complete function.
 
 ## Conda Environment
 ---
@@ -66,24 +62,29 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 ## Results and Analysis
 ---
 
-#### Region
+#### Climatologies
+<br>
+> *Latent Heat Flux*: The following map represents the latent heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Latent heat flux depicts the loss of energy due to evaporation and transpiration. As is expected, more evaporation takes place during the warm season when more heating due to solar radiation and more moisture is present. Notably, in all seasons, the Southwest US maintains low LHF values. This is most likely due to the dry state of the region which is limiting the loss of energy. 
+
+![Latent Heat Flux Climatology](/Figs/Climo_LHF.png) 
+<br>
+> *Sensible Heat Flux*: The following map represents the sensible heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Sensible heat flux (SHF) depicts the loss of energy to the atmosphere due to heating from the surface. More heat is transfereed during the warm months as the land is warmer during this period and therefore is able to transfer this heat to the atmospere. A significant feature in this plot is that the pattern from that in. the LHF plot has reversed. For the most part, the Southwest US maintains high SHF values. The high altitude and spare vegetation region allows for a larger land-atmosphere temperature difference that drives the loss of energy.
+
+![Sensible Heat Flux Climatology](/Figs/Climo_SHF.png)
+<br>
+> *Ground Heat Flux*: The following map represents the sensible heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Sensible heat flux (SHF) depicts the loss of energy to the atmosphere due to heating from the surface. More heat is transfereed during the warm months as the land is warmer during this period and therefore is able to transfer this heat to the atmospere. A significant feature in this plot is that the pattern from that in. the LHF plot has reversed. For the most part, the Southwest US maintains high SHF values. The high altitude and sparse vegetation region allows for a larger land-atmosphere temperature difference that drives the loss of energy.
+
+![Ground Heat Flux Climatology](/Figs/Climo_GHF.png)
+<br>
+
+#### Composite and Correlation
+<br>
+> *Region*: Two regions of interest -- one warm and the other moist -- were chosen to calculate the composite and correlation. Warm region, especially during the summer when there is more solar radiation, suggest more evapotranspiration should be taking place due to the increase in energy of water molecules and opening of stoma in plants. On the contrary, moist regions suggest less. evapotranspiration should be taking place. Water is easier to evaporate (or transpire in the case of vegetation) in drier regions as opposed to moist ones. The maps below shows two regions encompassed in colored boxes that will be averages and used for calculating composite and correlation relative to the LHF. The regions were chosen based on the [Köppen Climate Classification](https://www.weather.gov/jetstream/climate_max) maps which divides regions based on their temperature and moisture characteristics.  
 
 ![Regional Latent Heat Flux](./Figs/AVG_LHF.png)
 
-#### Climatologies
 
-![Latent Heat Flux Climatology](/Figs/Climo_LHF.png)
-More latent heat flux in warm months and moist areas. 
-
-
-![Sensible Heat Flux Climatology](/Figs/Climo_SHF.png)
-More sensible heat flux in warm months and clear areas.
-
-![Ground Heat Flux Climatology](/Figs/Climo_GHF.png)
-Similar pattern, more ground heat flux in the warmer month. Much lower values in cooler months which could be becuase of significant drop in land temperatures in cool season. 
-
-
-#### Composite and Correlation
+> *Latent Heat Flux Composite*: The following map is a composite of the latent heat flux anomolies calculates over the entire region with the averages of the temperature and specific humidity lowest model layer (56-70m). The averages in each box were computed individually then the percentile data was composited with the anomolies of the LHF for the entire region. The maps below shows the results of this calculation. The top row represents the LHF composite with the warm temperature region and the bottom row represents the LHF composite with the moist temperature region.  
 
 ![Latent Heat Flux Composite](/Figs/LHF_Composite.png)
 * Top Row
@@ -106,7 +107,10 @@ Similar pattern, more ground heat flux in the warmer month. Much lower values in
     
 ![Regression](/Figs/LHFSMReg.png)
 * Still being analyzed
- 
+
+
+## Summary
+---
         
 
 
