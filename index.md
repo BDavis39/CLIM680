@@ -91,8 +91,9 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 <br>
 
  > *Regression*: In this final plot, the spatial values of LHF are being plotted against soil moisture. The fitted line is also included. The is a distinct region of interest above 0.275 m$^{-3}$·m$^{-3}$ where the soil moisture increases with decreases LHF. This is further support for the moisture-limited vs energy-limited regimes. The bottom region corresponds to moisture limited regions where the soil moisture is strongly correlated wit the LHF. The region above most likely corresponds to energy-limited situations as the LHF should increase with increasing soil moisture (in moisture-limited conditions) but the opposite is happening here. 
+ > 
 ![Regression](/Figs/LHFSMReg.png)
-* Still being analyzed
+<br>
 
 
 ## Summary
