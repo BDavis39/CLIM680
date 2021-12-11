@@ -58,15 +58,15 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 
 #### Climatologies
 <br>
-> *Latent Heat Flux*: The following map represents the latent heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Latent heat flux depicts the loss of energy due to evaporation and transpiration. As is expected, more evaporation takes place during the warm season when more heating due to solar radiation and more moisture is present. Notably, in all seasons, the Southwest US maintains low LHF values. This is most likely due to the dry state of the region which is limiting the loss of energy. 
+> *Latent Heat Flux*: The following map represents the latent heat flux (LHF) averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Latent heat flux (LHF) depicts the loss of energy due to evaporation and transpiration. As is expected, more evaporation takes place during the warm season when more heating due to solar radiation and more moisture is present. Notably, in all seasons, the Southwest US maintains low LHF values. This is most likely due to the dry state of the region which is limiting the loss of energy. 
 
 ![Latent Heat Flux Climatology](/Figs/Climo_LHF.png) 
 <br>
-> *Sensible Heat Flux*: The following map represents the sensible heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Sensible heat flux (SHF) depicts the loss of energy to the atmosphere due to heating from the surface. More heat is transfereed during the warm months as the land is warmer during this period and therefore is able to transfer this heat to the atmospere. A significant feature in this plot is that the pattern from that in. the LHF plot has reversed. For the most part, the Southwest US maintains high SHF values. The high altitude and spare vegetation region allows for a larger land-atmosphere temperature difference that drives the loss of energy.
+> *Sensible Heat Flux*: The following map represents the sensible heat flux (SHF) averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Sensible heat flux (SHF) depicts the loss of energy to the atmosphere due to heating from the surface. More heat is transfereed during the warm months as the land is warmer during this period and therefore is able to transfer this heat to the atmospere. A significant feature in this plot is that the pattern from that in. the LHF plot has reversed. For the most part, the Southwest US maintains high SHF values. The high altitude and spare vegetation region allows for a larger land-atmosphere temperature difference that drives the loss of energy.
 
 ![Sensible Heat Flux Climatology](/Figs/Climo_SHF.png)
 <br>
-> *Ground Heat Flux*: The following map represents the sensible heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Sensible heat flux (SHF) depicts the loss of energy to the atmosphere due to heating from the surface. More heat is transfereed during the warm months as the land is warmer during this period and therefore is able to transfer this heat to the atmospere. A significant feature in this plot is that the pattern from that in. the LHF plot has reversed. For the most part, the Southwest US maintains high SHF values. The high altitude and sparse vegetation region allows for a larger land-atmosphere temperature difference that drives the loss of energy.
+> *Ground Heat Flux*: The following map represents the ground heat flux averages -- calculated from April 2015 to December 2021 -- over the United States and the Caribbean. Groud heat flux (GHF) depicts the loss of energy of the subsurface to the surface due to heating differences. This is the only plot of the climatology that has noticably negative values. That is because, unlike the other variables, the ground heat flux changes direction. In the summer where more heat is absorbed by the surface, the surface becomes warmer than the subsurface. This causes a downward flux of energy to lower levels. Conversely, in the cooler season, the subsurface is going to be warmer than the surface due to radiation loss so the there will be an upward flux from lower level to the surface.   More heat is transfereed during the warm months as the land is warmer during this period and therefore is able to transfer this heat to the atmospere. 
 
 ![Ground Heat Flux Climatology](/Figs/Climo_GHF.png)
 <br>
@@ -98,7 +98,7 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 
 ## Summary
 ---
-        
+> In summary, the plots above showed great support for the presence of the moisture-limiting vs energy-limiting regimes for the land surface. Several plots such as the composite and correlation maps are easily explained by this phenomenon. However, while these conditions are typically the most influential factor, care must be taken in circumstances where other forcings may be present such as in the case of he moist region composite with LHF.          
 
 
 
