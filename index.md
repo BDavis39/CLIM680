@@ -82,7 +82,7 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 > *Top*: Negative values are present in the region close to where the warm temperature average was taken. It is expected that LHF here is lower becaues it is a moisture-limited environment. In the summer, solar radiation and heating is readily available so LHF is dependent on soil moisture availibility. It is present in lower quantities comapred to other regions which is represented by the green colors in all other areas of map. The signal strengthens resulting in higher magnitudes moving to lower percentiles i.e lowers values of temperature. The lower maps   
 > *Bottom*: The bottom plot is opposite of the top one. The most significant signal is not in the moist region where the composite average was taken. This doesn't change when looking at the top or bottom percentiles for specific humidity in this region. This could be due to other forcing in the atmosphere that is causing the signal to reach a peak in to the southwest of the original averaged region. 
 
-![LHF Composite with SM and Radiation](/Figs/LHF_Corr.png)
+![LHF Composite with SM and Radiation](/Figs/LHF_Comp.png)
 <br>
 
 > *Correlation Map with Significance*: The following maps are correlations of LHF with soil moisture (top) and net radiation (bottom). The patterns of these plots mirror those of the composite. In both other maps LHF is strongly correlated with the other variable with the exception of tow areas. In the top plot that is the northeastern region in Canada and in the bottom plot this is exhibited in the southwestern area near in Mexico. This pattern shows further support for the soil-limited vs energy-limited regimes that impact LHF. In the top plot LHF is being correlated with soil moisture. So the a large signal is expected in areas where soil moisture is the determing factor in LHF. This is everywhere except in the northwest in Canada. Here energy and soil moisture is in abundance so there is a weaker signal to represent the dependence of LHF on energy rather than soil moisture in this area. The opposite is true in the bottom plot where LHF is  correlated with the net radiaton. In the southwest in Mexico LHF is dependent on soil moisture which is spares as opposed to net radiation which is abunance. The weak signal is indicative of the dependence of soil moisture on LHF in this region. The black dots represent significant of the correlation to the 99th percentile. The entire region is covered in dots except the low signal regions. 
@@ -92,7 +92,7 @@ Channels and dependencies needed to replicate results can be found [here](./env.
 
  > *Regression*: In this final plot, the spatial values of LHF are being plotted against soil moisture. The fitted line is also included. The is a distinct region of interest above 0.275 m$^{-3}$·m$^{-3}$ where the soil moisture increases with decreases LHF. This is further support for the moisture-limited vs energy-limited regimes. The bottom region corresponds to moisture limited regions where the soil moisture is strongly correlated wit the LHF. The region above most likely corresponds to energy-limited situations as the LHF should increase with increasing soil moisture (in moisture-limited conditions) but the opposite is happening here. 
  > 
-![Regression](/Figs/LHFSMReg.png)
+![Regression](/Figs/LHF_SM_Reg.png)
 <br>
 
 
